@@ -1,13 +1,13 @@
 # codeflix
 
 
-* [Requirement]('https://github.com/ish-u/codeflix_/blob/main/docs/RequirementElicitation.pdf)
-* [SRS]('https://github.com/ish-u/codeflix_/blob/main/docs/SoftwareRequirementSpecification-SRS.pdf')
-* [Estimation]('https://github.com/ish-u/codeflix_/blob/main/docs/ProjectEstimation-FP_COCOMO.pdf)
-* [Design and Testing]('https://github.com/ish-u/codeflix_/blob/main/docs/StrutureCharts_Testing.pdf)
+* [Requirement](https://github.com/ish-u/codeflix_/blob/main/docs/RequirementElicitation.pdf)
+* [SRS](https://github.com/ish-u/codeflix_/blob/main/docs/SoftwareRequirementSpecification-SRS.pdf)
+* [Estimation](https://github.com/ish-u/codeflix_/blob/main/docs/ProjectEstimation-FP_COCOMO.pdf)
+* [Design and Testing](https://github.com/ish-u/codeflix_/blob/main/docs/StrutureCharts_Testing.pdf)
 
 ### Demo : https://code-flix.netlify.app/
-![](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![demo](https://s3.gifyu.com/images/chrome-capture5e2eb1a8c933de83.gif)
 
 ## Run Locally
 
@@ -31,7 +31,7 @@ git clone https://github.com/ish-u/codeflix_.git
     - [Set Up Atlas](https://docs.atlas.mongodb.com/getting-started/?tck=docs_driver_nodejs)
     - [Create a Database in your Cluster and Connect to Cluser](https://docs.mongodb.com/drivers/node/quick-start/)
     - Generate YOUR SECRET KEY using `require('crypto).randomBytes(64).toString('hex')`
-    - Set Up `.env` file with the following files
+    - Set Up `.env` file with the following variables
 
     ```
     DB_CONNECTION = {YOUR CLUSTER URI}
@@ -52,9 +52,9 @@ git clone https://github.com/ish-u/codeflix_.git
     npm install
     ```
 - Set Up `.env` file as following:
-```
-VUE_APP_CODEFLIX_API=http://localhost:5000/codeflix
-```
+    ```
+    VUE_APP_CODEFLIX_API=http://localhost:5000/codeflix
+    ```
 - Run the Client using either
     ```
     yarn serve 
