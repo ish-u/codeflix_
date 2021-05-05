@@ -7,7 +7,7 @@
 * [Design and Testing](https://github.com/ish-u/codeflix_/blob/main/docs/StrutureCharts_Testing.pdf)
 
 ### Demo : https://code-flix.netlify.app/
-![demo](https://s3.gifyu.com/images/chrome-capture5e2eb1a8c933de83.gif)
+![demo](docs/demo.gif)
 
 ## Run Locally
 
